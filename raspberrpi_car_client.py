@@ -1,16 +1,8 @@
-'''
-Things to note for positioning:
-the yellow swaure in the middle is two by two meters long. Convert to feet 
-to get x and y coords and send to thread
-iotcar4 at 192.168.0.244
-iotcar5 at 192.168.0.240
-iotcar6 at 192.168.0.161
-'''
 import socket
 from enum import Enum
 from subprocess import check_output
 import os
-import main_drive, check_messages
+#import main_drive, check_messages
 
 class ClientConnInfo(Enum):
     HEADER = 64
